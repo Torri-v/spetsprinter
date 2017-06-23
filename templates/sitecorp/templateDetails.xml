@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3.2//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="2.5.3" type="template" client="site">
+	<name>Sitecorp</name>
+	<creationDate>25/08/2015</creationDate>
+	<author>Sitecorp</author>
+	<authorEmail>info@sitecorp.com.ua</authorEmail>
+	<copyright>Copyright (C) 2015 Sitecorp</copyright>
+	<description>TPL_PROTOSTAR_XML_DESCRIPTION</description>
+	<files>
+		<filename>index.php</filename>
+	</files>
+	<positions>
+		<position>left</position>
+	</positions>
+</extension>

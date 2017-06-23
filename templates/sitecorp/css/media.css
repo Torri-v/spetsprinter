@@ -1,0 +1,278 @@
+@media (max-width: 1024px){
+    .header-top {
+        width: 95%;
+    }
+    ul.menu {
+        display: none;
+    }
+    .moduletable_logo{
+        float: left;
+    }
+    .media_menu {
+        display: block;
+        margin-left: 20px;
+        cursor: pointer;
+        float: left;
+        padding: 6px 0;
+    }
+    .media_menu > a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .moduletable_tel {
+        float: right;
+        padding: 17px 0;
+    }
+    .header-content {
+        padding: 140px 0 32px;
+    }
+    .custom_brands {
+        text-align: center;
+    }
+    .custom_brands img {
+        margin: 33px 13px;
+        height: 65px;
+    }
+
+    .problems_content {
+        margin: 0 50px;
+    }
+    .problems_bottom > .problems_content {
+         margin: 25px 50px 50px;
+    }
+    .footer_cont {
+        margin-left: 20px;
+    }
+    .f_cont_adr p {
+        font-size: 22px;
+        margin-left: 23px;
+        padding-top: 26px;
+    }
+    .footer_form {
+        padding: 15px;
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+    .custom_why_we, .custom_brands, .custom_can_able, .custom_problems, .custom_reviews, .custom_contacts, .header-content {
+        width: auto;
+    }
+    .moduletable_media_menu {
+        margin-left: 25px;
+    }
+    .content_center {
+        margin-left:110px;
+    }
+    .content_nomar {
+        margin: 11px 36px;;
+    }
+    #brands {
+        margin-bottom: 30px;
+    }
+    .custom_brands img {
+        margin: 0 13px;
+        height: 62px;
+    }
+    .custom_can_able:before {
+        display: none;
+    }
+    .can_able_content {
+        width: 210px;
+        margin: 15px 30px;
+    }
+    .can_able_one, .can_able_three {
+        margin-left: 140px;
+    }
+    .can_able_text p {
+        font-size: 21px;
+    }
+    .content_img, .problems_img, .content_nomar {
+        width: 240px;
+        height: 170px;
+        margin: 10px 15px;
+    }
+    .custom_brands {
+        padding-bottom: 10px;
+    }
+    .problems_content {
+        margin: 0 20px;
+    }
+    .problems_bottom > .problems_content {
+        margin: 25px 20px 50px;
+    }
+    .problems_top, .problems_bottom {
+        margin: 0 50px;
+    }
+    .footer_cont {
+        width: 375px;
+    }
+    #f_send {
+        width: 340px;
+        font-size: 25px;
+    }
+    input {
+        width: 330px;
+        font-size: 19px;
+    }
+    .f_cont_adr p {
+        font-size: 20px;
+        margin-left: 21px;
+        padding-top: 23px;
+    }
+}
+
+@media (max-width: 640px) {
+    .header-content {
+        padding: 125px 0 32px;
+    }
+    .border {
+        width: 450px;
+        height: 125px;
+    }
+    .a_gragient {
+        width: 450px;
+    }
+    .content_center {
+        margin: 20px 0 0 40px;
+    }
+    .custom_problems {
+        padding: 50px 40px 20px;
+    }
+    .can_able_one, .can_able_three {
+        margin-left: 70px;
+    }
+    .problems_content {
+        width: 135px;
+    }
+    .problems_top, .problems_bottom {
+        margin: 0;
+    }
+    .problems_content_text p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #head {
+        height: 560px;
+    }
+    .moduletable_logo {
+        width: 100%;
+        text-align: center;
+        margin: 2px 0;
+    }
+    .media_menu {
+        margin: 0;
+        padding: 0;
+    }
+    .border {
+        width: 420px;
+    }
+    .a_gragient {
+        width: 420px;
+    }
+    .xxx {
+        margin: 30px 30px 30px;
+    }
+    .header-content {
+        padding: 130px 0 32px;
+    }
+    .content_center {
+        margin: 0;
+        text-align: center;
+    }
+    .content_img, .content_nomar {
+        width: auto;
+        height: 150px;
+        margin: 15px 40px;
+    }
+    .can_able_content {
+        width: auto;
+        text-align: center;
+        margin: 15px 0;
+        float: none;
+    }
+    .can_able_one, .can_able_three {
+        margin-left: 0;
+    }
+    .can_able_one::before {
+        background-position: 50% 0;
+    }
+    .can_able_two::before {
+        background-position: 50% -125px;
+    }
+    .can_able_three::before {
+        background-position: 50% -260px;
+    }
+    .can_able_four::before {
+        background-position: 50% -390px;
+    }
+    .problems_content {
+        margin: 0 -5px;
+    }
+    .problems_bottom > .problems_content {
+        margin: 25px -5px 50px;
+    }
+    .problems_content_text p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    #head {
+        height: 578px;
+    }
+
+    .send_form {
+        display: none;
+    }
+    .custom_tel p {
+        font-size: 21px;
+    }
+    .moduletable_tel {
+        padding: 0 3px;
+        margin: 0;
+    }
+    .border {
+        width: 255px;
+        height: 150px;
+    }
+    .header-content_lighter {
+        margin: 0;
+    }
+    .xxx {
+        margin: 30px 0;
+    }
+    .custom_header-content > .header-content_bold {
+        font-size: 24px;
+    }
+    .custom_header-content a {
+        font-size: 26px;
+    }
+    .a_gragient {
+        width: 283px;
+    }
+    .problems_content {
+        margin: 25px 50px;
+    }
+    .problems_bottom > .problems_content {
+        margin: 25px 50px;
+    }
+    .footer_cont {
+        margin: 0;
+        width: auto;
+    }
+    input {
+        width: 265px;
+    }
+    #f_send {
+        width: 275px;
+        font-size: 21px;
+    }
+
+}
+
